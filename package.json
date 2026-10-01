@@ -1,0 +1,13 @@
+{
+  "name": "xboom-bot",
+  "version": "1.0.0",
+  "description": "xBooM WhatsApp bot (single file)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "pino": "^9.6.0",
+    "xboom-baileys": "file:./xBooM-BAILEYS"
+  },
+  "engines": { "node": ">=20.0.0" }
+}
